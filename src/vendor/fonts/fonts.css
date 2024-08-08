@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Rokkitt-VariableFont_wght.woff2") format("woff2"),
+    url("Rokkitt-VariableFont_wght.woff") format("woff");
+}
+@font-face {
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("Rokkitt-VariableFont_wght.woff2") format("woff2"),
+    url("Rokkitt-VariableFont_wght.woff") format("woff");
+}
+
+

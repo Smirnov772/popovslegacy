@@ -1,0 +1,106 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./component/App/App.css);
+
+.page {
+  --margin-text-0: 0 0 20px 0 ;
+  --semibolt: 600;
+  --light: 300;
+  --colorText: rgba(241, 241, 241, 1);
+  background-color: rgba(54, 54, 54, 1);
+  max-width: 1440px;
+  color: rgba(241, 241, 241, 1);
+  font-family: Rokkitt, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 auto;
+}
+a {
+  color: rgba(241, 241, 241, 1);
+  text-decoration: none;
+}
+h1,
+h2 {
+  margin: var(--margin-text-0);
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+}
+li:last-child .link {
+  margin-right: 0;
+}
+/* временные стили */
+* {
+  outline: 1px solid black;
+}
+
+.h1_mod_size {
+  font-size: 64px;
+  font-weight: var(--semibolt);
+  color: var(--colorText);
+}
+.h2_mod_size {
+  font-size: 32px;
+  font-weight: var(--semibolt);
+  color: var(--colorText);
+}
+.text1_mod_size {
+  font-size: 20px;
+  font-weight: var(--light);
+}
+.text2_mod_size {
+  font-size: 24px;
+  font-weight: var(--light);
+}
+.text3_mod_size {
+  font-size: 20px;
+  font-weight: var(--light);
+}
+
+/* Tablet styles (768px to 1024px) */
+@media (max-width: 1024px) {
+  .h1_mod_size {
+    font-size: 42px; /* Using Tablet specific size */
+  }
+  .h2_mod_size {
+    font-size: 24px; /* Using Tablet specific size */
+  }
+  .text1_mod_size {
+    font-size: 18px; /* Using Tablet specific size */
+  }
+  .text2_mod_size {
+    font-size: 20px; /* Using Tablet specific size */
+  }
+  .text3_mod_size {
+    font-size: 18px; /* Using Tablet specific size */
+  }
+}
+
+/* Mobile styles (Below 768px) */
+@media (max-width: 768px) {
+  .h1_mod_size {
+    font-size: 36px; /* Using Mobile specific size */
+  }
+  .h2_mod_size {
+    font-size: 24px; /* Mobile size is same as Tablet in your code */
+  }
+  .text1_mod_size {
+    font-size: 18px; /* Mobile size is same as Tablet */
+  }
+  .text2_mod_size {
+    font-size: 20px; /* Mobile size is same as Tablet */
+  }
+  .text3_mod_size {
+    font-size: 18px; /* Mobile size is same as Tablet */
+  }
+}
+
+.text_color_yelow {
+  color: rgba(244, 131, 34, 1);
+}

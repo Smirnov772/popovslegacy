@@ -1,0 +1,181 @@
+.header {
+  position: fixed;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: rgba(28, 28, 26, 0.51);
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 0 134px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.header__logo {
+  height: 100%;
+}
+.header__nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.header__list {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__link {
+  max-width: 166px;
+  width: 100%;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  transition: color 0.6s ease;
+}
+
+.header__link:hover {
+  color: rgba(241, 241, 241, 0.6); /* Затемнение текста */
+}
+.header__contact {
+  font-weight: 300;
+  text-align: center;
+  padding: 10px 0;
+
+  white-space: nowrap;
+}
+
+.main {
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../Image/front-vintage-chrome-headlight-auto 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  /* margin: -80px 0 0 0; */
+  z-index: 1;
+}
+.banner__container {
+  padding: 180px 134px 80px;
+}
+.banner__title {
+  min-height: 80px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.banner__subtitle {
+  max-width: 572px;
+  width: 100%;
+  margin-bottom: 56px;
+}
+.banner__button {
+  max-width: 472px;
+  width: 100%;
+  height: 68px;
+  
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.6s ease;
+}
+.banner__button_margin-40{
+  margin: 40px 0 0 auto ;
+}
+.banner__button:hover {
+  background-color: rgba(65, 138, 78, 1);
+}
+
+.banner__social-container {
+  margin-top: 36px;
+  height: 108px;
+  max-width: 472px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner__paragraph {
+  margin: auto auto 6px;
+}
+.banner__social-icon-container {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+}
+.banner__social-icon {
+  margin: 0 14px;
+  transition: filter 0.3s ease;
+}
+
+.banner__social-icon:hover {
+  filter: invert(50%) sepia(100%) hue-rotate(90deg) saturate(200%)
+    brightness(90%) contrast(90%);
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 134px;
+}
+.services__container{
+  padding: 0 0 80px 0
+}
+.services__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.services__item {
+  /* max-width: 372px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+}
+
+
+
+.services__icon {
+  max-width: 272px;
+  width: 100%;
+  margin: 0 25px 23px;
+}
+
+.services__text {text-align: center;
+}
+
+.stage__container{
+
+}
+
+.stage___title {
+}
+
+.stage___list {
+}
+
+.stage___item:not(:last-child) {
+  margin-bottom: 20px;
+}
