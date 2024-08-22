@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://smirnov772.github.io/popovslegacy/sitemap.xml
